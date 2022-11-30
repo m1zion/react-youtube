@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Course4useState from './course4useState';
 function App() {
   const name = "Regular const";
   const isGreen = true;
@@ -38,6 +39,8 @@ function App() {
             ))
        }
        <h1></h1>
+
+       <Course4useState/>
     </div>
   );
 }
